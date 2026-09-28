@@ -13,6 +13,26 @@
 
 ## 💡 About Me
 
+I am an AI Training & Evaluation Specialist focused on building, evaluating, and improving reliable, safe, and high-quality AI systems. I focus on training data, annotation, human feedback, LLM evaluation, post-training, benchmarking, safety, and model improvement.
+
+I specialize in AI Data Annotation, AI Data Quality, LLM Evaluation, Human Feedback, RLHF, DPO, Response Ranking, Evaluation Rubric Engineering, Multimodal AI, RAG Evaluation, AI Safety, and Model Quality Analysis.
+
+My annotation work spans image, video, audio, text, NLP, and multimodal data, including classification, bounding boxes, polygons, segmentation, object tracking, named entity recognition, sentiment, intent, relation extraction, transcription, and speaker diarization.
+
+I also focus on annotation quality: annotation schemas, taxonomies, guidelines, gold-standard examples, edge cases, reviewer workflows, consensus, and inter-annotator agreement using Cohen’s Kappa, Fleiss’ Kappa, and Krippendorff’s Alpha.
+
+In LLM evaluation, I assess pointwise and pairwise evaluation across correctness, factuality, relevance, helpfulness, completeness, groundedness, instruction following, clarity, consistency, and safety. I am interested in rubric design, benchmark engineering, human preference datasets, response ranking, error taxonomies, model comparison, and challenge sets.
+
+I am developing knowledge of SFT, reward modeling, RLHF, DPO, preference optimization, and evaluation-driven model improvement. I am particularly interested in LLM-as-a-Judge evaluation, human-vs-LLM calibration, and identifying position bias, verbosity bias, self-preference, order bias, and domain limitations.
+
+My toolkit includes Python, Pandas, NumPy, JSON/JSONL, SQL, Git, GitHub, Jupyter, VS Code, CVAT, Label Studio, Hugging Face, Transformers, PyTorch, TRL, PEFT, LoRA/QLoRA, RAG evaluation, and automated evaluation pipelines.
+
+I focus on AI safety and robustness evaluation, including refusal quality, jailbreak robustness, prompt injection, privacy, data leakage, toxicity, bias, stereotyping, and adversarial testing.
+
+My goal is to become an AI Evaluation Engineer / Evaluation Scientist who can define objectives, create datasets, establish human ground truth, benchmark models, calibrate judges, analyze failures, support post-training improvements, run regression tests, and monitor AI systems in production.
+
+I continuously learn, build, experiment, and publish projects demonstrating AI training, evaluation, data quality, human feedback, safety, and multimodal AI.
+
 I design, build, and deploy **production-grade AI evaluation systems, RLHF data pipelines, inter-annotator agreement frameworks, RAG benchmarks, domain guidelines, and LLM safety testing suites**. 
 
 My work bridges **AI Evaluation Engineering**, **Human Feedback (RLHF/DPO)**, **Data Quality Assurance**, and **AI Safety & Governance**, enabling AI labs, research teams, and enterprises to build reliable, aligned, and hallucination-free LLM applications.
@@ -39,7 +59,8 @@ Here is my core portfolio index of 17 production-grade repositories (95/95 passi
 
 ### 🔍 Data Quality, Benchmarking & Reliability
 9. [**`llm-annotation-quality-lab`**](https://github.com/master72o/llm-annotation-quality-lab) — Statistical quality control laboratory for Inter-Annotator Agreement (Cohen's Kappa, Fleiss' Kappa, Krippendorff's Alpha).
-10. [**`llm-judge-reliability-benchmark`**](https://github.com/master72o/llm-judge-reliability-benchmark) — Benchmark for auditing LLM-as-a-Judge position bias ($A/B ightarrow B/A$), verbosity bias, self-preference, and ECE calibration.
+10. [**`llm-judge-reliability-benchmark`**](https://github.com/master72o/llm-judge-reliability-benchmark) — Benchmark for auditing LLM-as-a-Judge position bias ($A/B 
+ightarrow B/A$), verbosity bias, self-preference, and ECE calibration.
 11. [**`llm-hallucination-factuality-benchmark`**](https://github.com/master72o/llm-hallucination-factuality-benchmark) — NLI contradiction analysis & atomic claim factuality verification framework.
 12. [**`rag-evaluation-lab`**](https://github.com/master72o/rag-evaluation-lab) — Production RAG Triad suite (Faithfulness, Answer Relevance, Context Relevance, Precision@K, Recall@K).
 13. [**`llm-prompt-regression-suite`**](https://github.com/master72o/llm-prompt-regression-suite) — CI/CD automated prompt engineering regression testing suite for model drift and formatting breakages.
