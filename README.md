@@ -1,6 +1,6 @@
 # Hi there, I'm Munir 👋
 
-### 🔬 Senior AI Evaluation Specialist | RLHF & Human Feedback Architect | AI Data Quality Engineer | LLM QA & Safety Specialist
+### 🔬 AI Evaluation Specialist | RLHF & Human Feedback Architect | AI Data Quality Engineer | LLM QA & Safety Specialist
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![PyTest](https://img.shields.io/badge/PyTest-Passing-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)](https://pytest.org)
