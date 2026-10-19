@@ -1,11 +1,11 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,31&height=220&section=header&text=Munir%20%7C%20AI%20Evaluation%Specialist&fontSize=40&fontColor=ffffff&animation=fadeIn&subtext=Senior%20AI%20Evaluation%20Specialist%20%E2%80%A2%20Multimodal%20Benchmarking%20%E2%80%A2%20RLHF%20%E2%80%A2%20LLM%20Safety&subFontSize=16&subTextY=68" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,31&height=220&section=header&text=Munir%20%7C%20AI%20Evaluation%20Specialist&fontSize=40&fontColor=ffffff&animation=fadeIn&subtext=Senior%20AI%20Evaluation%20Specialist%20%E2%80%A2%20Multimodal%20Benchmarking%20%E2%80%A2%20RLHF%20%E2%80%A2%20LLM%20Safety&subFontSize=16&subTextY=68" width="100%"/>
 </div>
 
 <div align="center">
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![PyTest: 100% Passing](https://img.shields.io/badge/PyTest-231%2F231%20Passing%20(100%25)-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)](https://pytest.org)
+[![PyTest: 100% Passing](https://img.shields.io/badge/PyTest-235%2F235%20Passing%20(100%25)-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)](https://pytest.org)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-iconseven-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/iconseven)
 [![Streamlit Studios](https://img.shields.io/badge/Streamlit-7%20Studios%20Live-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
 [![OpenRouter Free Tier](https://img.shields.io/badge/OpenRouter-Free%20Tier%20Integrated-6C5CE7?style=for-the-badge)](https://openrouter.ai)
@@ -19,7 +19,7 @@
 
 I am a **Senior AI Evaluation Engineer & Multimodal Benchmark Specialist** dedicated to building, benchmarking, and hardening production-grade AI systems. My focus centers on **empirical measurement**, **formal statistical rigor**, and **interactive evaluation studios (Streamlit)** to audit foundation models, agentic workflows, and data annotation pipelines.
 
-My engineering portfolio spans **7 Flagship AI Evaluation Systems** and **19 specialized evaluation, RLHF, and safety repositories**, totaling **231/231 passing automated tests (100%)** with complete, transparent results provenance.
+My engineering portfolio spans **7 Flagship AI Evaluation Systems** and **19 specialized evaluation, RLHF, and safety repositories**, totaling **235/235 passing automated tests (100%)** with complete, transparent results provenance.
 
 ---
 
@@ -29,8 +29,8 @@ A curated showcase of 7 standalone, publication-grade systems featuring interact
 
 | # | Flagship Repository | Architecture & Methodologies | Real Measured Metrics | Test Suite | Interactive Studio |
 | :-: | :--- | :--- | :--- | :-: | :-: |
-| **01** | [**`annotatoriq-data-quality-ops`**](https://github.com/master72o/annotatoriq-data-quality-ops) | Multi-task annotation quality control, statistical agreement, synthetic noise detection | Cohen's $\kappa=0.88$, Fleiss' $\kappa=0.84$, $\alpha=0.86$, 92.3% Defect Recall | **34 / 34 Pass** | `streamlit run app.py` |
-| **02** | [**`rag-reliability-observatory`**](https://github.com/master72o/rag-reliability-observatory) | BM25 vs Dense vs Hybrid vs Reranking retrieval ablation, RAG Triad auditing | Faithfulness 93.4%, Relevance 91.2%, Context Groundedness 89.7% | **23 / 23 Pass** | `streamlit run app.py` |
+| **01** | [**`annotatoriq-data-quality-ops`**](https://github.com/master72o/annotatoriq-data-quality-ops) | Multi-task annotation quality control, statistical agreement, synthetic noise detection | Cohen's $\kappa=0.88$, Fleiss' $\kappa=0.84$, $\alpha=0.86$, 92.3% Defect Recall | **37 / 37 Pass** | `streamlit run app.py` |
+| **02** | [**`rag-reliability-observatory`**](https://github.com/master72o/rag-reliability-observatory) | BM25 vs Dense vs Hybrid vs Reranking retrieval ablation, RAG Triad auditing | Faithfulness 93.4%, Relevance 91.2%, Context Groundedness 89.7% | **24 / 24 Pass** | `streamlit run app.py` |
 | **03** | [**`preferenceforge-alignment-study`**](https://github.com/master72o/preferenceforge-alignment-study) | RLHF & DPO alignment, Bradley-Terry Elo modeling, margin scaling ($\Delta r$) | $\mathcal{L}_{BT}=0.284$, Elo $1185 \pm 18$, Margin Gap $+1.42\sigma$ | **24 / 24 Pass** | `streamlit run app.py` |
 | **04** | [**`documentvision-multimodal-benchmark`**](https://github.com/master72o/documentvision-multimodal-benchmark) | OCR pipelines vs Vision-Language Models on dense tables, charts, and KIE | PubTabNet TEDS 92.4%, KIE F1 89.6%, ChartQA 84.1%, layout mAP 87.3% | **16 / 16 Pass** | `streamlit run app.py` |
 | **05** | [**`agentbench-works`**](https://github.com/master72o/agentbench-works) | Autonomous agent trajectory evaluation across 16 enterprise tasks in 5 domains | Success: ReAct 25.0% vs Structured 87.5% vs Self-Reflection 100.0% | **18 / 18 Pass** | `streamlit run app.py` |
