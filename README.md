@@ -15,7 +15,7 @@
 
 ---
 
-## 💡 Executive Summary
+## 💡 My professional Summary
 
 I am a **Senior AI Evaluation Engineer & Multimodal Benchmark Specialist** dedicated to building, benchmarking, and hardening production-grade AI systems. My focus centers on **empirical measurement**, **formal statistical rigor**, and **interactive evaluation studios (Streamlit)** to audit foundation models, agentic workflows, and data annotation pipelines.
 
