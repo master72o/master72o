@@ -5,9 +5,9 @@
 <div align="center">
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![PyTest: 100% Passing](https://img.shields.io/badge/PyTest-235%2F235%20Passing%20(100%25)-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)](https://pytest.org)
+[![PyTest: 100% Passing](https://img.shields.io/badge/PyTest-254%2F254%20Passing%20(100%25)-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)](https://pytest.org)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-iconseven-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/iconseven)
-[![Streamlit Studios](https://img.shields.io/badge/Streamlit-7%20Studios%20Live-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
+[![Interactive Studios](https://img.shields.io/badge/Studios-8%20Interactive%20Studios%20Live-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
 [![OpenRouter Free Tier](https://img.shields.io/badge/OpenRouter-Free%20Tier%20Integrated-6C5CE7?style=for-the-badge)](https://openrouter.ai)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
@@ -17,26 +17,26 @@
 
 ## 💡 My professional Summary
 
-I am a **Senior AI Evaluation Engineer & Multimodal Benchmark Specialist** dedicated to building, benchmarking, and hardening production-grade AI systems. My focus centers on **empirical measurement**, **formal statistical rigor**, and **interactive evaluation studios (Streamlit)** to audit foundation models, agentic workflows, and data annotation pipelines.
+I am a **Senior AI Evaluation Engineer & Multimodal Benchmark Specialist** dedicated to building, benchmarking, and hardening production-grade AI systems. My focus centers on **empirical measurement**, **formal statistical rigor**, and **interactive evaluation studios (Streamlit & Next.js/FastAPI)** to audit foundation models, agentic workflows, and data annotation pipelines.
 
-My engineering portfolio spans **7 Flagship AI Evaluation Systems** and **19 specialized evaluation, RLHF, and safety repositories**, totaling **235/235 passing automated tests (100%)** with complete, transparent results provenance.
+My engineering portfolio spans **8 Flagship AI Evaluation Systems** and **19 specialized evaluation, RLHF, and safety repositories**, totaling **254/254 passing automated tests (100%)** with complete, transparent results provenance.
 
 ---
 
-## 🌟 The 7 Flagship AI Evaluation Systems
+## 🌟 The 8 Flagship AI Evaluation Systems
 
-A curated showcase of 7 standalone, publication-grade systems featuring interactive Streamlit studios, empirical benchmark datasets, automated test suites, and strict results provenance:
+A curated showcase of 8 standalone, publication-grade systems featuring interactive Streamlit & Next.js studios, empirical benchmark datasets, automated test suites, and strict results provenance:
 
 | # | Flagship Repository | Architecture & Methodologies | Real Measured Metrics | Test Suite | Interactive Studio |
 | :-: | :--- | :--- | :--- | :-: | :-: |
-| **01** | [**`annotatoriq-data-quality-ops`**](https://github.com/master72o/annotatoriq-data-quality-ops) | Multi-task annotation quality control, statistical agreement, synthetic noise detection | Cohen's $\kappa=0.88$, Fleiss' $\kappa=0.84$, $\alpha=0.86$, 92.3% Defect Recall | **37 / 37 Pass** | `streamlit run app.py` |
+| **01** | [**`annotatoriq-data-quality-ops`**](https://github.com/master72o/annotatoriq-data-quality-ops) | Multi-task annotation quality control, statistical agreement, synthetic noise & straight-lining detection | Cohen's $\kappa=0.88$, Fleiss' $\kappa=0.84$, $\alpha=0.86$, 92.3% Defect Recall | **40 / 40 Pass** | `streamlit run app.py` |
 | **02** | [**`rag-reliability-observatory`**](https://github.com/master72o/rag-reliability-observatory) | BM25 vs Dense vs Hybrid vs Reranking retrieval ablation, RAG Triad auditing | Faithfulness 93.4%, Relevance 91.2%, Context Groundedness 89.7% | **24 / 24 Pass** | `streamlit run app.py` |
 | **03** | [**`preferenceforge-alignment-study`**](https://github.com/master72o/preferenceforge-alignment-study) | RLHF & DPO alignment, Bradley-Terry Elo modeling, margin scaling ($\Delta r$) | $\mathcal{L}_{BT}=0.284$, Elo $1185 \pm 18$, Margin Gap $+1.42\sigma$ | **24 / 24 Pass** | `streamlit run app.py` |
 | **04** | [**`documentvision-multimodal-benchmark`**](https://github.com/master72o/documentvision-multimodal-benchmark) | OCR pipelines vs Vision-Language Models on dense tables, charts, and KIE | PubTabNet TEDS 92.4%, KIE F1 89.6%, ChartQA 84.1%, layout mAP 87.3% | **16 / 16 Pass** | `streamlit run app.py` |
-| **05** | [**`agentbench-works`**](https://github.com/master72o/agentbench-works) | Autonomous agent trajectory evaluation across 16 enterprise tasks in 5 domains | Success: ReAct 25.0% vs Structured 87.5% vs Self-Reflection 100.0% | **18 / 18 Pass** | `streamlit run app.py` |
+| **05** | [**`agentbench-works`**](https://github.com/master72o/agentbench-works) | Autonomous agent trajectory evaluation, milestone progress tracking & token cost economics | Success: ReAct 25.0% vs Structured 87.5% vs Self-Reflection 100.0% | **23 / 23 Pass** | `streamlit run app.py` |
 | **06** | [**`trustboundary-ai-security-lab`**](https://github.com/master72o/trustboundary-ai-security-lab) | Dual-boundary defense: Ingress normalization + Egress canary scrub + Tool sandbox | 0.0% ASR, 100.0% Benign Utility (0.0% Over-Refusal), 0.0% Canary Leak | **23 / 23 Pass** | `streamlit run app.py` |
 | **07** | [**`temporal-grounding-lab`**](https://github.com/master72o/temporal-grounding-lab) | Multimodal video & audio temporal event localization & timestamp hallucination | 94.9% mIoU, 100% R@1@0.5, 0.14s Boundary Jitter, 0.0% Hallucination | **10 / 10 Pass** | `streamlit run app.py` |
-
+| **08** | [**`rank-fix-and-train-ai`**](https://github.com/master72o/rank-fix-and-train-ai) | Active Learning (entropy + divergence), position-calibrated LLM judge, closed-loop TRL DPO QLoRA fine-tuning | Cohen's $\kappa=0.81$, 73.4% Active Learning Cost Cut, Post-DPO Win Rate $+22.5\%$ | **11 / 11 Pass** | `cd backend && uvicorn app.main:app` |
 
 ---
 
@@ -60,7 +60,8 @@ graph TD
     Benchmarks --> SecurityGate["Phase 4: Dual-Boundary Security Hardening (TrustBoundary)"]
     SecurityGate --> IngressNorm["Ingress De-obfuscation & Jailbreak Classifier"]
     SecurityGate --> EgressScrub["Egress Canary Sentinel & Tool Sandbox Runtime"]
-    EgressScrub --> ProdReady["Verified Production AI Deployment"]
+    EgressScrub --> AlignForge["Phase 5: Active Learning & Closed-Loop DPO Tuning (AlignForge)"]
+    AlignForge --> ProdReady["Verified Production AI Deployment"]
 ```
 
 ---
@@ -122,7 +123,7 @@ In addition to the 7 Flagships, all 19 specialized repositories remain active, t
 
 ## 📜 Results Provenance & Engineering Standards
 
-- **Zero Synthetic Disguise**: Every metric reported across all 7 Flagships was measured empirically using automated benchmark engines and archived in CSV/JSON traces.
+- **Zero Synthetic Disguise**: Every metric reported across all 8 Flagships was measured empirically using automated benchmark engines and archived in CSV/JSON traces.
 - **Reproducible Test Suites**: 100% of test suites run autonomously with PyTest across Python 3.10, 3.11, and 3.12.
 - **Open Access Datasets**: Evaluation datasets are publicly hosted on Hugging Face at [`@iconseven`](https://huggingface.co/iconseven).
 
