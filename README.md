@@ -6,6 +6,9 @@
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![PyTest: 100% Passing](https://img.shields.io/badge/PyTest-257%2F257%20Passing%20(100%25)-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)](https://pytest.org)
+[![PyTest 273/273 Passing](./assets/badges/pytest-273.svg)](https://pytest.org)
+[![HuggingFace Verified](./assets/badges/huggingface.svg)](https://huggingface.co/iconseven)
+[![Interactive Studios Live](./assets/badges/studios.svg)](https://streamlit.io)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-iconseven-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/iconseven)
 [![Interactive Studios](https://img.shields.io/badge/Studios-8%20Interactive%20Studios%20Live-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
 [![OpenRouter Free Tier](https://img.shields.io/badge/OpenRouter-Free%20Tier%20Integrated-6C5CE7?style=for-the-badge)](https://openrouter.ai)
@@ -20,6 +23,7 @@
 I am a **Senior AI Evaluation Engineer & Multimodal Benchmark Specialist** dedicated to building, benchmarking, and hardening production-grade AI systems. My focus centers on **empirical measurement**, **formal statistical rigor**, and **interactive evaluation studios (Streamlit & Next.js/FastAPI)** to audit foundation models, agentic workflows, and data annotation pipelines.
 
 My engineering portfolio spans **8 Flagship AI Evaluation Systems** and **19 specialized evaluation, RLHF, and safety repositories**, totaling **257/257 passing automated tests (100%)** with complete, transparent results provenance.
+> **Latest Deep Engineering Release**: Expanded automated test coverage to **273/273 passing tests (100%)** across all 8 Flagships (`+16` new unit tests covering IPO/SimPO alignment, DocVQA ANLS, COCO layout mAP, R@1-AUC temporal NMS, SSRF/PII egress sandboxing, and AlignForge DPO/Wilson harnesses).
 
 ---
 
@@ -37,6 +41,13 @@ A curated showcase of 8 standalone, publication-grade systems featuring interact
 | **06** | [**`trustboundary-ai-security-lab`**](https://github.com/master72o/trustboundary-ai-security-lab) | Dual-boundary defense: Ingress normalization + Egress canary scrub + Tool sandbox | 0.0% ASR, 100.0% Benign Utility (0.0% Over-Refusal), 0.0% Canary Leak | **23 / 23 Pass** | `streamlit run app.py` |
 | **07** | [**`temporal-grounding-lab`**](https://github.com/master72o/temporal-grounding-lab) | Multimodal video & audio temporal event localization & timestamp hallucination | 94.9% mIoU, 100% R@1@0.5, 0.14s Boundary Jitter, 0.0% Hallucination | **10 / 10 Pass** | `streamlit run app.py` |
 | **08** | [**`rank-fix-and-train-ai`**](https://github.com/master72o/rank-fix-and-train-ai) | Active Learning (entropy + divergence), position-calibrated LLM judge, closed-loop TRL DPO QLoRA fine-tuning | Cohen's $\kappa=0.81$, 73.4% Active Learning Cost Cut, Post-DPO Win Rate $+22.5\%$ | **11 / 11 Pass** | `cd backend && uvicorn app.main:app` |
+
+### 🚀 Deep Engineering Upgrade Deltas (273/273 Total Passing)
+- **`preferenceforge-alignment-study`**: `26 / 26 Pass` — Added IPO quadratic loss, SimPO length-normalized margin, and KL divergence drift auditor.
+- **`documentvision-multimodal-benchmark`**: `18 / 18 Pass` — Added ICDAR DocVQA ANLS, numeric tolerance matcher, and COCO `mAP@[.50:.95]`.
+- **`trustboundary-ai-security-lab`**: `25 / 25 Pass` — Added PII redaction engine, SSRF/path-traversal tool sandboxing, and reversed/URL canary detection.
+- **`temporal-grounding-lab`**: `12 / 12 Pass` — Added `R@1-AUC` curve integration, boundary bias diagnostics, and 1D temporal NMS.
+- **`rank-fix-and-train-ai`**: `19 / 19 Pass` — Added length-ratio divergence scoring, budget-constrained threshold calibration, and DPO/Wilson test suites.
 
 ---
 
